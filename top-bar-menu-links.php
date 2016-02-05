@@ -1,4 +1,6 @@
 <?php
+// https://helloacm.com/how-to-add-menu-in-the-wordpress-top-admin-bar/
+// Adding menus in the wordpress Top admin bar
 
 function helloacm_add_top_admin_bar_links() {
   global $wp_admin_bar;
