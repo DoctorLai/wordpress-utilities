@@ -1,3 +1,5 @@
+<?php
+
 function helloacm_add_top_admin_bar_links() {
   global $wp_admin_bar;
   // Top node
@@ -53,3 +55,5 @@ function helloacm_add_top_admin_bar_links() {
 }
 
 add_action('wp_before_admin_bar_render', 'helloacm_add_top_admin_bar_links');
+
+?>
