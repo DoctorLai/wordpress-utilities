@@ -13,4 +13,7 @@
     }     
     return $src; // keep unchanged if file is not accessible.
   }
+  
+  add_filter( 'style_loader_src', 'justyy_remove_cssjs_ver', 10, 2 );
+  add_filter( 'script_loader_src', 'justyy_remove_cssjs_ver', 10, 2 );  
 ?>
